@@ -1,30 +1,53 @@
-# Muhammad Umer Riaz
+<h1 align="left">Hi, I'm Muhammad Umer Riaz 👋</h1>
 
-**Industrial Engineer · Data Analyst · AI Engineer in Progress — Tampere, Finland**
+<table>
+<tr>
+<td valign="top" width="60%">
+
+<a href="https://www.linkedin.com/in/muhammad-umer-riaz">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:muhammad.umer2149@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+
+<br/><br/>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Industrial+Engineer;Data+%26+AI+Enthusiast;MSc+IEM+%40+Tampere+University&font=Fira+Code&width=500&height=45&color=36BCF7&pause=1000)](https://git.io/typing-svg)
+<br/>
+Industrial engineer by training, pivoting into data and AI. My background is in operations — Lean Six Sigma, process improvement, performance dashboards — where the feedback loop between a decision and its consequences is short and visible.
+
+- 🏭 Lean Six Sigma · process mining · production systems
+- 📊 Building a portfolio across supply chain, retail, and SaaS analytics
+- 🤖 Deployed an Agentic RAG system end-to-end on AWS
+- 🎓 MSc thesis at Beneq — Systematic AI adoption in organisations
+- 📍 Based in Tampere, Finland
+
+
+
+
+</td>
+<td valign="top" width="40%" align="center">
+<br/>
+<br/>
+<img src="https://media1.giphy.com/media/gXr3j6YAClXFfZABn5/giphy.gif" width="300"/>
+</td>
+</tr>
+</table>
 
 ---
 
-## About
+## 🤖 AI Engineering
 
-I started my career on the factory floor — production lines, layouts, bottlenecks, quality systems. That background trained me to evaluate new ideas through their impact on real processes, constraints, and the people who run them, not just their technical elegance.
+**[Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat)** — *Live at http://13.62.94.147*
 
-Moving to Finland to complete my MSc in Industrial Engineering & Management at Tampere University widened that perspective. Coursework spanning supply chain, business development, technology commercialisation, and data analytics gave me a view of how industrial organisations create value beyond factory operations.
+A production-grade document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search for external knowledge, or an isolated sub-agent for full-document analysis.
 
-As AI accelerated, the natural question for me wasn't *what can this do* — it was *how do organisations actually adopt this without it falling apart*. My master's thesis, completed at Beneq, explored exactly that: how low-maturity organisations move from scattered AI experiments to systematic adoption using governance frameworks and lightweight prototypes.
+Built with FastAPI · Supabase · pgvector · React · OpenRouter · Cohere · LangSmith · Docker · AWS EC2
 
-I'm now building the technical side to match that strategic view — data analytics projects across supply chain, retail, and SaaS, and an Agentic RAG system currently in development.
-
----
-
-## Currently Building
-
-**Agentic RAG Application** *(coming to GitHub soon)*  
-A production-grade document intelligence system with hybrid vector search, reranking, metadata extraction, sub-agents, and Text-to-SQL. Built with FastAPI · Supabase · pgvector · React · LangSmith.  
-The goal: a system technically-minded people can actually deploy and extend — not a tutorial demo.
+Eval results (63 test cases, 6 prompt versions): Retrieval Hit@5 = 1.00 · Grounding = 3.42/5 · Agent task completion = 96%
 
 ---
 
-## Data Analytics Portfolio
+## 📊 Data Analytics Portfolio
 
 Four end-to-end projects, each starting from a real business problem:
 
@@ -39,41 +62,69 @@ Four end-to-end projects, each starting from a real business problem:
 
 ---
 
-## Technical Skills
+## 🛠 Technical Skills
 
-**Data & Analytics**  
-Python · pandas · SQL · Power BI · scikit-learn · matplotlib · seaborn · scipy
+**Data & Analytics**
 
-**AI & Engineering**  
-RAG · pgvector · OpenAI API · FastAPI · Supabase · React · LangSmith · Prompt Engineering
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![numpy](https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
 
-**Operations & Process**  
-Lean Six Sigma · ERP Systems · Process Mining (Celonis) · Value Stream Mapping · OEE
+**AI & Engineering**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF6B6B?style=flat-square&logoColor=white)
+
+**Operations & Process**
+
+![Lean Six Sigma](https://img.shields.io/badge/Lean%20Six%20Sigma-00853F?style=flat-square&logoColor=white)
+![Root Cause Analysis](https://img.shields.io/badge/Root%20Cause%20Analysis-E63946?style=flat-square&logoColor=white)
+![OEE](https://img.shields.io/badge/Overall%20Equipment%20Efficiency-FF6B35?style=flat-square&logoColor=white)
+![Value Stream Mapping](https://img.shields.io/badge/Value%20Stream%20Mapping-F4A261?style=flat-square&logoColor=white)
+![Process Mining](https://img.shields.io/badge/Process%20Mining%20(Celonis)-00B4D8?style=flat-square&logoColor=white)
+![ERP](https://img.shields.io/badge/ERP%20Systems-0052CC?style=flat-square&logoColor=white)
+![KPI Dashboards](https://img.shields.io/badge/KPI%20Dashboards-2B9348?style=flat-square&logoColor=white)
+---
+
+## 🎓 Education
+
+**MSc Business & Technology — Industrial Engineering & Management**
+- 🇫🇮 Tampere University · 2023–2025 · GPA 4.4/5
+- Thesis: *Systematic AI Adoption Through Governance Mechanisms* (Grade: 4/5, Very Good)
+- Conducted in collaboration with **Beneq Oy** · Funded by the Finnish Technology Industries' Centenary Foundation
+
+**BSc Industrial Engineering**
+- 🇵🇰 University of Engineering & Technology Taxila · 2016–2020 · GPA 3.44/4.0
+- Thesis: *Knowledge Integration in Large Scale R&D Projects* (Grade A, Excellent)
+- Conducted in collaboration with **Heavy Industries Taxila**
 
 ---
 
-## Education
+## 📜 Certifications
 
-**MSc Business & Technology — Industrial Engineering & Management** · Tampere University · 2023–2025  
-GPA 4.4/5 · Thesis: *Systematic AI Adoption Through Governance Mechanisms* (Grade: 4/5, Very Good)  
-Thesis funded by the Finnish Technology Industries' Centenary Foundation
-
-**BSc Industrial Engineering** · University of Engineering & Technology Taxila · 2016–2020
-
----
-
-## Certifications
-
+- Microsoft Certified: Data Analyst Associate (Power BI) — Microsoft
 - How Transformer LLMs Work — DeepLearning.AI
 - Developing AI Systems with the OpenAI API — DataCamp
 - Prompt Engineering with OpenAI API — DataCamp
-- Process Mining with Celonis — Udemy
-- Microsoft Certified: Data Analyst Associate (Power BI) — Udemy
 - Supervised Learning with scikit-learn — DataCamp
 - Lean Six Sigma Green Belt — Coursera
+- Supply Chain Management Specialization — Coursera
+- Process Mining with Celonis — Udemy
 
 ---
 
-## Connect
+## 📬 Connect
 
-[LinkedIn](https://www.linkedin.com/in/muhammad-umer-riaz) · [GitHub Portfolio](https://github.com/Muhammad-Umer-Riaz/data-analyst-portfolio) · muhammad.umer2149@gmail.com
+[LinkedIn](https://www.linkedin.com/in/muhammad-umer-riaz)  
+muhammad.umer2149@gmail.com
