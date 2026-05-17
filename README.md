@@ -38,7 +38,7 @@ Industrial engineer working at the intersection of business, data, and AI. My ba
 
 ## 🤖 AI Engineering
 
-**[Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat)** — *Live at http://13.62.94.147*
+**[Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat)** — *Live demo currently offline*
 
 A production-grade document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search for external knowledge, or an isolated sub-agent for full-document analysis.
 
