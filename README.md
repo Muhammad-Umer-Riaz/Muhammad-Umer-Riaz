@@ -1,18 +1,16 @@
 <h1 align="left">Hi, I'm Muhammad Umer Riaz 👋</h1>
 
+<p align="left">
+  <a href="https://www.linkedin.com/in/muhammad-umer-riaz"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:muhammad.umer2149@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
 <table>
 <tr>
-<td valign="top" width="60%">
+<td valign="top" width="62%">
 
-<a href="https://www.linkedin.com/in/muhammad-umer-riaz">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:muhammad.umer2149@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Industrial+Engineer;Data+%26+AI+Enthusiast;MSc+IEM+%40+Tampere+University&font=Fira+Code&size=22&width=500&height=42&color=36BCF7&pause=1000&center=false)](https://git.io/typing-svg)
 
-<br/><br/>
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Industrial+Engineer;Data+%26+AI+Enthusiast;MSc+IEM+%40+Tampere+University&font=Fira+Code&width=500&height=45&color=36BCF7&pause=1000)](https://git.io/typing-svg)
-<br/>
 Industrial engineer working at the intersection of business, data, and AI. My background is in operational environments, where the impact of decisions is quickly visible. I build systems with the same approach and apply AI to real-world operational problems.
 
 - 🏭 Lean Six Sigma · operations · production systems
@@ -22,12 +20,8 @@ Industrial engineer working at the intersection of business, data, and AI. My ba
 - 🎓 MSc thesis at Beneq — Systematic AI adoption in organisations
 - 📍 Based in Tampere, Finland
 
-
-
-
 </td>
-<td valign="top" width="40%" align="center">
-<br/>
+<td valign="top" width="38%" align="center">
 <br/>
 <img src="https://media1.giphy.com/media/gXr3j6YAClXFfZABn5/giphy.gif" width="300"/>
 </td>
@@ -38,44 +32,57 @@ Industrial engineer working at the intersection of business, data, and AI. My ba
 
 ## 🤖 AI Engineering
 
-**[Provenance — Schema-Driven Report Generation](https://github.com/Muhammad-Umer-Riaz/Provenance)** — *[Live demo](https://your-demo-url)*
+### [Provenance — Schema-Driven Report Generation](https://github.com/Muhammad-Umer-Riaz/Provenance) — *[Live demo](https://d4q93waqw2e37.cloudfront.net)*
 
-A field-level report generation engine. A YAML template declares every field's generation strategy — lookup, extractor, calculator,
-template-fill, direct-input, classifier, narrative-LLM, grounded-LLM, or hybrid — and an orchestrator routes each field to its handler.
-Deterministic strategies never call an LLM; narrative paragraphs do, but every draft surfaces in a three-pane review UI where the
-engineer edits and approves field-by-field before export. An append-only audit log records every state transition.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Muhammad-Umer-Riaz/Provenance/master/docs/images/screenshots/Template%20Page.png" width="100%" alt="Provenance — Templates page"/>
+</p>
 
-Built with FastAPI · React · TypeScript · Supabase (Postgres · Auth · Realtime · RLS) · OpenRouter · YAML · AWS (S3 ·
-  CloudFront · EC2)
+A field-level report generation engine. A YAML template declares every field's generation strategy — lookup, extractor, calculator, template-fill, direct-input, classifier, narrative-LLM, grounded-LLM, or hybrid — and an orchestrator routes each field to its handler. Deterministic strategies never call an LLM; narrative paragraphs do, but every draft surfaces in a three-pane review UI where the engineer edits and approves field-by-field before export. An append-only audit log records every state transition.
 
-Featured template: 47-field Supplier Qualification Report — classifier-gated verdict flow, lookup-driven risk
-disclosure, narrative-LLM executive summary, end-to-end DOCX/PDF/JSON export.
+Built with FastAPI · React · TypeScript · Supabase (Postgres · Auth · Realtime · RLS) · OpenRouter · YAML · AWS (S3 · CloudFront · EC2)
 
----
+Featured template: 47-field Supplier Qualification Report — classifier-gated verdict flow, lookup-driven risk disclosure, narrative-LLM executive summary, end-to-end DOCX/PDF/JSON export.
 
-**[Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat)** — *Live demo currently offline*
+<br/>
 
-A multi-format document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an
-agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search
-for external knowledge, or an isolated sub-agent for full-document analysis.
+### [Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat) — *Live demo currently offline*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat/master/docs/screenshots/chat-thought-process.png" width="100%" alt="Agentic RAG Chat — agent thought process"/>
+</p>
+
+A multi-format document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search for external knowledge, or an isolated sub-agent for full-document analysis.
 
 Built with FastAPI · Supabase · pgvector · React · OpenRouter · Cohere · LangSmith · Docker · AWS EC2
 
 Eval results (63 test cases, 6 prompt versions): Retrieval Hit@5 = 1.00 · Grounding = 3.42/5 · Agent task completion = 96%
 
-  ---
+---
 
 ## 🏗️ Data Engineering
 
-**[Procurement Intelligence — End-to-End Microsoft Fabric](https://github.com/Muhammad-Umer-Riaz/Procurement_Intelligence_E2E_Microsoft_Fabric)** — *EuroVac Systems GmbH supply chain platform*
+### [Procurement Intelligence — End-to-End Microsoft Fabric](https://github.com/Muhammad-Umer-Riaz/Procurement_Intelligence_E2E_Microsoft_Fabric) — *EuroVac Systems GmbH supply chain platform*
 
-<img src="https://raw.githubusercontent.com/Muhammad-Umer-Riaz/Procurement_Intelligence_E2E_Microsoft_Fabric/e604fdfc3bef172a875f62922efcbff28c710355/figures/architecture_diagram.png" width="100%"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Muhammad-Umer-Riaz/Procurement_Intelligence_E2E_Microsoft_Fabric/e604fdfc3bef172a875f62922efcbff28c710355/figures/architecture_diagram.png" width="100%" alt="Architecture diagram"/>
+</p>
 
 An end-to-end Microsoft Fabric data engineering project for a fictional Munich-based ALD/CVD semiconductor equipment manufacturer. A synthetic 11-table SAP-style ERP and three live external APIs (FRED commodity prices, NY Fed GSCPI, Frankfurter FX) flow through Bronze → Silver → Gold medallion architecture into a star schema, a Direct Lake semantic model with 19 DAX measures, and a 5-page Power BI report. A scikit-learn lead time classifier reads from Silver, logs to MLflow, and writes its predictions back to the Warehouse as a first-class fact table — joined into the same semantic model the dashboard consumes. Two Fabric Data Pipelines orchestrate the platform end-to-end.
 
 Built with Microsoft Fabric (Lakehouse · Warehouse · Pipelines) · PySpark · Delta Lake · T-SQL · Power BI (DAX) · scikit-learn · MLflow · Python
 
-Headline results: $67bn PO value · $4.12bn savings · 498K PO lines · 82.7% on-time delivery · ML AUC 0.757 on 2025 hold-out · ~20-min weekly Bronze → Gold refresh on F2 trial
+  <table align="center">
+  <tr>
+  <th align="center" valign="middle">Results</th>
+  <td align="center"><b>$67bn</b><br/><sub>PO value</sub></td>
+  <td align="center"><b>$4.12bn</b><br/><sub>Savings</sub></td>
+  <td align="center"><b>498K</b><br/><sub>PO lines</sub></td>
+  <td align="center"><b>82.7%</b><br/><sub>On-time delivery</sub></td>
+  <td align="center"><b>AUC 0.757</b><br/><sub>2025 hold-out</sub></td>
+  <td align="center"><b>~20 min</b><br/><sub>weekly Bronze → Gold refresh on F2 trial</sub></td>
+  </tr>
+  </table>
 
 ---
 
@@ -96,6 +103,10 @@ Four end-to-end projects, each starting from a real business problem:
 
 ## 🛠 Technical Skills
 
+<table>
+<tr>
+<td valign="top" width="34%">
+
 **Data & Analytics**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -115,6 +126,9 @@ Four end-to-end projects, each starting from a real business problem:
 ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
 ![seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
 
+</td>
+<td valign="top" width="33%">
+
 **AI Engineering**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -133,6 +147,9 @@ Four end-to-end projects, each starting from a real business problem:
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF6B6B?style=flat-square&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-25D366?style=flat-square&logoColor=white)
 
+</td>
+<td valign="top" width="33%">
+
 **Operations & Process**
 
 ![Lean Six Sigma](https://img.shields.io/badge/Lean%20Six%20Sigma-00853F?style=flat-square&logoColor=white)
@@ -146,23 +163,44 @@ Four end-to-end projects, each starting from a real business problem:
 ![Process Mining](https://img.shields.io/badge/Process%20Mining%20-00B4D8?style=flat-square&logoColor=white)
 ![ERP](https://img.shields.io/badge/ERP%20Systems-0052CC?style=flat-square&logoColor=white)
 ![KPI Dashboards](https://img.shields.io/badge/KPI%20Dashboards-2B9348?style=flat-square&logoColor=white)
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🎓 Education
 
-**MSc Business & Technology — Industrial Engineering & Management**
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**MSc Business & Technology - IEM**
+
 - 🇫🇮 Tampere University · 2023–2025 · GPA 4.4/5
 - Thesis: *Systematic AI Adoption Through Governance Mechanisms* (Grade: 4/5, Very Good)
 - Conducted in collaboration with **Beneq Oy** · Funded by the Finnish Technology Industries' Centenary Foundation
 
+</td>
+<td valign="top" width="50%">
+
 **BSc Industrial Engineering**
+<br/>
 - 🇵🇰 University of Engineering & Technology Taxila · 2016–2020 · GPA 3.44/4.0
 - Thesis: *Knowledge Integration in Large Scale R&D Projects* (Grade A, Excellent)
 - Conducted in collaboration with **Heavy Industries Taxila**
 
+</td>
+</tr>
+</table>
+
 ---
 
-## 📜 Certifications
+<details>
+<summary><b>📜 &nbsp;Certifications</b> &nbsp;(click to expand)</summary>
+
+<br/>
 
 - Microsoft Certified: Data Analyst Associate (Power BI) — Microsoft
 - How Transformer LLMs Work — DeepLearning.AI
@@ -172,6 +210,8 @@ Four end-to-end projects, each starting from a real business problem:
 - Lean Six Sigma Green Belt — Coursera
 - Supply Chain Management Specialization — Coursera
 - Process Mining with Celonis — Udemy
+
+</details>
 
 ---
 
