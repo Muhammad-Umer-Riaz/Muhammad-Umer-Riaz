@@ -17,7 +17,7 @@ Industrial engineer working at the intersection of business, data, and AI. My ba
 
 - 🏭 Lean Six Sigma · operations · production systems
 - 🏗️ End-to-end data engineering on MS Fabric — medallion to Power BI
-- 🤖 Two AI systems on AWS — schema-driven report engine and agentic RAG
+- 🤖 Two AI systems on AWS — schema-driven report engine & agentic RAG
 - 📊 Data analytics portfolio across supply chain, retail, and SaaS
 - 🎓 MSc thesis at Beneq — Systematic AI adoption in organisations
 - 📍 Based in Tampere, Finland
