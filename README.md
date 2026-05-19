@@ -13,12 +13,12 @@
 <br/><br/>
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Industrial+Engineer;Data+%26+AI+Enthusiast;MSc+IEM+%40+Tampere+University&font=Fira+Code&width=500&height=45&color=36BCF7&pause=1000)](https://git.io/typing-svg)
 <br/>
-Industrial engineer working at the intersection of business, data, and AI. My background is in operational environments, where the impact of decisions is quickly visible. I build systems with the same approach while exploring how AI applies in real-world settings.
+Industrial engineer working at the intersection of business, data, and AI. My background is in operational environments, where the impact of decisions is quickly visible. I build systems with the same approach and apply AI to real-world operational problems.
 
 - 🏭 Lean Six Sigma · operations · production systems
 - 🏗️ End-to-end data engineering on MS Fabric — medallion to Power BI
-- 🤖 Deployed an Agentic RAG system end-to-end on AWS
-- 📊 Portfolio across supply chain, retail, and SaaS analytics
+- 🤖 Two AI systems on AWS — schema-driven report engine and agentic RAG
+- 📊 Data analytics portfolio across supply chain, retail, and SaaS
 - 🎓 MSc thesis at Beneq — Systematic AI adoption in organisations
 - 📍 Based in Tampere, Finland
 
@@ -38,15 +38,32 @@ Industrial engineer working at the intersection of business, data, and AI. My ba
 
 ## 🤖 AI Engineering
 
+**[Provenance — Schema-Driven Report Generation](https://github.com/Muhammad-Umer-Riaz/Provenance)** — *[Live demo](https://your-demo-url)*
+
+A field-level report generation engine. A YAML template declares every field's generation strategy — lookup, extractor, calculator,
+template-fill, direct-input, classifier, narrative-LLM, grounded-LLM, or hybrid — and an orchestrator routes each field to its handler.
+Deterministic strategies never call an LLM; narrative paragraphs do, but every draft surfaces in a three-pane review UI where the
+engineer edits and approves field-by-field before export. An append-only audit log records every state transition.
+
+Built with FastAPI · React · TypeScript · Supabase (Postgres · Auth · Realtime · RLS) · OpenRouter · YAML · AWS (S3 ·
+  CloudFront · EC2)
+
+Featured template: 47-field Supplier Qualification Report — classifier-gated verdict flow, lookup-driven risk
+disclosure, narrative-LLM executive summary, end-to-end DOCX/PDF/JSON export.
+
+---
+
 **[Agentic RAG Chat](https://github.com/Muhammad-Umer-Riaz/Agentic-RAG-Chat)** — *Live demo currently offline*
 
-A production-grade document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search for external knowledge, or an isolated sub-agent for full-document analysis.
+A multi-format document intelligence system. Upload PDF, DOCX, XLSX, PPTX, or images and chat with them via an
+agentic loop that routes each query to the right tool: hybrid vector search, Text-to-SQL for spreadsheets, web search
+for external knowledge, or an isolated sub-agent for full-document analysis.
 
 Built with FastAPI · Supabase · pgvector · React · OpenRouter · Cohere · LangSmith · Docker · AWS EC2
 
 Eval results (63 test cases, 6 prompt versions): Retrieval Hit@5 = 1.00 · Grounding = 3.42/5 · Agent task completion = 96%
 
----
+  ---
 
 ## 🏗️ Data Engineering
 
@@ -102,13 +119,17 @@ Four end-to-end projects, each starting from a real business problem:
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-6E40C9?style=flat-square&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF6B6B?style=flat-square&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-25D366?style=flat-square&logoColor=white)
 
