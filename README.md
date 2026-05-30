@@ -1,5 +1,5 @@
 <h1 align="left">Hi, I'm Muhammad Umer Riaz 👋</h1>
-
+<img src="https://komarev.com/ghpvc/?username=Muhammad-Umer-Riaz&style=flat-square&color=green&base=1000" alt="Profile Views"/>
 <p align="left">
   <a href="https://www.linkedin.com/in/muhammad-umer-riaz"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:muhammad.umer2149@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -219,3 +219,6 @@ Four end-to-end projects, each starting from a real business problem:
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-umer-riaz)  
 muhammad.umer2149@gmail.com
+
+---
+***Thanks for Visiting my Profile***
