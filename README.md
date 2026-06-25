@@ -84,6 +84,30 @@ Built with Microsoft Fabric (Lakehouse · Warehouse · Pipelines) · PySpark · 
   </tr>
   </table>
 
+<br/>
+
+### [Olist Analytics Engineering Warehouse](https://github.com/Muhammad-Umer-Riaz/Olist_Analytics_Engineering_Warehouse) — *End-to-end ELT on E-Commerce data*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Muhammad-Umer-Riaz/Olist_Analytics_Engineering_Warehouse/master/figures/olist-architecture-blueprint.png" width="100%" alt="Olist warehouse architecture"/>
+</p>
+
+An end-to-end analytics-engineering warehouse on the real Olist Brazilian e-commerce dataset — nine relational tables, ~100K orders, 2016–2018. **dlt** extract-and-loads the source CSVs and a live FX API into Snowflake; **dbt Core** transforms `RAW → STAGING → INTERMEDIATE → MARTS` into a two-fact star schema with a two-layer customer grain, role-playing dates, and conformed geography. Data quality is enforced with 52 tests and an auditable rejects table. **Airflow** (Astro Runtime + Cosmos) orchestrates the whole pipeline as one DAG with model-level lineage; dlt loads, Airflow never does. The four-page **Power BI** report is authored entirely as code in the `.pbip` text format (TMDL + PBIR).
+
+Built with dlt · Snowflake · dbt Core · Airflow (Astro Runtime · Cosmos) · Power BI (.pbip · TMDL · PBIR · DAX) · Python
+
+  <table align="center">
+  <tr>
+  <th align="center" valign="middle">Results</th>
+  <td align="center"><b>R$15.8M</b><br/><sub>Revenue</sub></td>
+  <td align="center"><b>99,441</b><br/><sub>Orders</sub></td>
+  <td align="center"><b>112,650</b><br/><sub>Order items</sub></td>
+  <td align="center"><b>92.1%</b><br/><sub>On-time delivery</sub></td>
+  <td align="center"><b>52</b><br/><sub>dbt tests (49 ✓ · 3 ⚠)</sub></td>
+  <td align="center"><b>3m 35s</b><br/><sub>end-to-end DAG run</sub></td>
+  </tr>
+  </table>
+
 ---
 
 ## 📊 Data Analytics
@@ -119,10 +143,16 @@ Four end-to-end projects, each starting from a real business problem:
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=flat-square&logo=databricks&logoColor=white)
+![dlt](https://img.shields.io/badge/dlt-FF6E42?style=flat-square&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Medallion Architecture](https://img.shields.io/badge/Medallion%20Architecture-1E3A8A?style=flat-square&logoColor=white)
 ![Star Schema](https://img.shields.io/badge/Star%20Schema-2D6A4F?style=flat-square&logoColor=white)
+![Analytics Engineering](https://img.shields.io/badge/Analytics%20Engineering-0B4F6C?style=flat-square&logoColor=white)
+![ELT](https://img.shields.io/badge/ELT-3D348B?style=flat-square&logoColor=white)
 ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
 ![seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
 
